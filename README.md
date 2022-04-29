@@ -46,7 +46,7 @@ mkdir new-folder
 ```
 mkdir new-folder/new-folder1/new-folder2 -p
 ```
-## Delete a folder
+## Delete a empty folder
 ```
 rmdir folder-name
 ```
@@ -90,4 +90,25 @@ cp -r newFolderA newFolderB
 ## Move file
 ```
 mv fileA FolderB
+```
+
+# chmod
+## Decentralization for file and folder
+
+# chown
+## Change the owner of files and folders
+
+# man
+## Search instructions on how to use the command
+
+# wget
+## Download from browser
+
+# kill
+## Shut down a process (-9, -15)
+
+# free
+## Check memories
+```
+free -h
 ```
