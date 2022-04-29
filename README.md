@@ -34,7 +34,10 @@ ls -l
 ```
 ls -a
 ```
-
+## List all files (include subfiles) in the current directory
+```
+ls -R
+```
 ## Create new folder
 ```
 mkdir new-folder
@@ -46,4 +49,45 @@ mkdir new-folder/new-folder1/new-folder2 -p
 ## Delete a folder
 ```
 rmdir folder-name
+```
+## Delete a folder and subfolder
+```
+rm -r folder-name
+```
+## Create a file
+```
+touch fileName
+```
+## Delete a file
+```
+rm fileName
+```
+# Cat
+## Show the contents of the file
+```
+cat fileName
+```
+
+# Grep
+## Find in file
+```
+cat fileName | grep "name"
+```
+```
+grep "name"
+```
+
+# cp - Copy
+## Copy file
+```
+cp fileA fileB
+```
+## Copy folder
+```
+cp -r newFolderA newFolderB
+```
+# mv - move
+## Move file
+```
+mv fileA FolderB
 ```
