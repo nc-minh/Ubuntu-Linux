@@ -108,7 +108,7 @@ mv fileA FolderB
 ## Shut down a process (-9, -15)
 
 # free
-## Check memories
+## Check memory
 ```
 free -h
 ```
